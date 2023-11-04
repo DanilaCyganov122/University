@@ -11,8 +11,8 @@ for i in range(1, 10001):
         win1 += 1
     elif rechosen_door == winning_door:
         win2 += 1
-chance_chosen = win1
-chance_rechosen = win2
-print("Кол-во угаданных дверей, выбранных изначально: ", float(chance_chosen/100),"%")
-print("Кол-во угаданных дверей, при смене выбора двери: ", float(chance_rechosen/100),"%")
+chance_chosen = win1/100
+chance_rechosen = win2/100
+print("Кол-во угаданных дверей, выбранных изначально: ", float(chance_chosen),"%")
+print("Кол-во угаданных дверей, при смене выбора двери: ", float(chance_rechosen),"%")
 
