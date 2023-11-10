@@ -1,1 +1,2 @@
-from .datagen import*
+from .datagen import *
+from .game import *
